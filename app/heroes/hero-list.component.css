@@ -1,0 +1,21 @@
+.hero-id {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+}
+
+.hero-name {
+    display: inline-block;
+    background-color: #bbb;
+    color: #fff;
+    padding: 8px;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+}
+
+.hero-item {
+    padding-top: 10px;
+    display: flex;
+}

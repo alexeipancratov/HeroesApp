@@ -1,0 +1,12 @@
+[
+    { "HeroId": 1, "Name": "Mr. Nice" },
+    { "HeroId": 2, "Name": "Narco" },
+    { "HeroId": 3, "Name": "Bombasto" },
+    { "HeroId": 4, "Name": "Celeritas" },
+    { "HeroId": 5, "Name": "Magneta" },
+    { "HeroId": 6, "Name": "RubberMan" },
+    { "HeroId": 7, "Name": "Dynama" },
+    { "HeroId": 8, "Name": "Dr. IQ" },
+    { "HeroId": 9, "Name": "Magma" },
+    { "HeroId": 10, "Name": "Tornado" }
+]
