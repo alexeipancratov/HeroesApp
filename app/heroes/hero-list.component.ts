@@ -10,6 +10,7 @@ import { HeroService } from './hero.service';
 export class HeroListComponent implements OnInit {
     heroes: IHero[];
     errorMessage: string;
+    selectedHero: IHero;
 
     constructor(private _heroService: HeroService) { }
 
@@ -17,5 +18,9 @@ export class HeroListComponent implements OnInit {
         this._heroService.getHeroes()
             .subscribe(
                 heroes => this.heroes = heroes, error => this.errorMessage = error);
+    }
+
+    onHeroSelect(hero: IHero): void {
+        this.selectedHero = hero;
     }
 }

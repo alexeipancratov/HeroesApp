@@ -1,6 +1,11 @@
 <ul id="heroes">
-    <li class="hero-item" *ngFor="let hero of heroes">
+    <li class="hero-item" *ngFor="let hero of heroes" (click)="onHeroSelect(hero)">
         <div class="hero-id">{{hero.HeroId}}</div>
         <div class="hero-name">{{hero.Name}}</div>
     </li>
 </ul>
+
+<div id="selectedHero" *ngIf="selectedHero">
+    <p><strong>{{selectedHero.Name}}</strong> is my hero</p>
+    <a class="btn btn-default" href="#">View details</a>
+</div>
