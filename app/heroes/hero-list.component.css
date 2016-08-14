@@ -18,4 +18,5 @@
 .hero-item {
     padding-top: 10px;
     display: flex;
+    cursor: pointer;
 }
