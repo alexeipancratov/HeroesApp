@@ -7,5 +7,5 @@
 
 <div id="selectedHero" *ngIf="selectedHero">
     <p><strong>{{selectedHero.Name}}</strong> is my hero</p>
-    <a class="btn btn-default" href="#">View details</a>
+    <a class="btn btn-default" [routerLink]="['/hero', { id: selectedHero.HeroId }]">View details</a>
 </div>
