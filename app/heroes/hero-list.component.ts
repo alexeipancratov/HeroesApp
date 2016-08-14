@@ -3,6 +3,7 @@ import { IHero } from './hero';
 import { HeroService } from './hero.service';
 
 @Component({
+    selector: 'hm-list',
     templateUrl: 'app/heroes/hero-list.component.html',
     styleUrls: [ 'app/heroes/hero-list.component.css' ]
 })
