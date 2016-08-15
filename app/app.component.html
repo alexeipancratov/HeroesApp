@@ -3,10 +3,10 @@
         <h2>Tour of Heroes</h2>
         <nav>
             <a href="#">Dashboard</a>
-            <a href="#">Heroes</a>
+            <a [routerLink]="['/heroes']">Heroes</a>
         </nav>
         <div class="col-md-12">
-            <hm-list></hm-list>
+            <router-outlet></router-outlet>
         </div>
     </div>
 </div>
