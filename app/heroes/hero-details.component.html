@@ -1,5 +1,5 @@
-<form *ngIf="hero"  name="heroDetails">
-    <h3>{{hero.Name}}'s details!</h3>
+<div *ngIf="hero"  name="heroDetails">
+    <h3>{{hero.Name | uppercase}}'s details!</h3>
     <div class="form-group">
         <label>id:</label>
         <p>{{hero.HeroId}}</p>
@@ -8,4 +8,4 @@
         <label>name:</label>
         <p>{{hero.Name}}</p>
     </div>
-</form>
+</div>

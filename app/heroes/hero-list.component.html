@@ -6,6 +6,6 @@
 </ul>
 
 <div id="selectedHero" *ngIf="selectedHero">
-    <p><strong>{{selectedHero.Name}}</strong> is my hero</p>
+    <p><strong>{{selectedHero.Name | uppercase}}</strong> is my hero</p>
     <a class="btn btn-default" [routerLink]="['/heroes', selectedHero.HeroId ]">View details</a>
 </div>
